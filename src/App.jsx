@@ -4,9 +4,15 @@ import Demo from './components/Demo';
 
 function App() {
   return (
-    <div>
-      APP
-    </div>
+    <main>
+      <div className='main'>
+        <div className='gradient'/>
+      </div>
+      <div className='app'>
+        <Hero/>
+        <Demo/>
+      </div>
+    </main>
   );
 }
 
